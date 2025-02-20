@@ -240,6 +240,8 @@
 #    define RAPIDJSON_ENDIAN RAPIDJSON_LITTLEENDIAN
 #  elif defined(_MSC_VER) && defined(_M_ARM64)
 #    define RAPIDJSON_ENDIAN RAPIDJSON_LITTLEENDIAN
+#  elif defined(_MSC_VER) && defined(_M_ARM64EC)
+#    define RAPIDJSON_ENDIAN RAPIDJSON_LITTLEENDIAN
 #  elif defined(RAPIDJSON_DOXYGEN_RUNNING)
 #    define RAPIDJSON_ENDIAN
 #  else
